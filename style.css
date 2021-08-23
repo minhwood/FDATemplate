@@ -296,7 +296,7 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .landing-page__news-item {
@@ -384,4 +384,27 @@ header {
     color: var(--gray);
     font-size: 14px;
     padding: 10px 0px;
+}
+
+
+/* news page */
+.page__thumbnail-image {
+    background-image: url('assets/citylight.jpg');
+    background-position: center;
+    height: 300px;
+    background-size: cover;
+    position: relative;
+}
+
+.page__thumbnail-image-layer {
+    position: absolute;
+    top:0px;
+    bottom:0px;
+    width: 100%;
+    padding-top: 230px;
+    background-color: var(--darkgray-on-60);
+}
+
+.page__thumbnail-image-layer h1 {
+    color: var(--white1);
 }
