@@ -356,6 +356,10 @@ header {
 
 /* Footer */
 
+footer {
+    background-color: var(--gray);
+}
+
 .footer__container {
     background-color: var(--gray);
     width: 100%;
@@ -381,7 +385,7 @@ header {
 }
 
 .footer__copyright p {
-    color: var(--gray);
+    color: var(--white1);
     font-size: 14px;
     padding: 10px 0px;
 }
@@ -408,3 +412,63 @@ header {
 .page__thumbnail-image-layer h1 {
     color: var(--white1);
 }
+
+/* pagination */
+.pagination {
+    text-align: center;
+}
+
+.pagination a {
+    color: var(--gray);   
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.pagination ul li {
+    margin: 10px;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+}
+
+.pagination a:hover {
+    background-color: var(--lightblue);    
+    color: var(--white1);
+}
+
+.pagination a.active {
+    background-color: var(--blue);    
+    color: var(--white1);
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
